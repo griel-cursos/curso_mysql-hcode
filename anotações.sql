@@ -19,6 +19,8 @@
 #SEMPRE TENHA MEDO E RESPEITO PELO 'AND'!!
 #SEMPRE TENHA PAVOR E RESPEITO PELO 'OR'!!
 
+#A virgula é somente após o comando SET
+
 /* 
 Comandos DDL (Data Defination Language) - Comandos de Estrutura
 - DROP = Apaga o banco de dados e tudo que houver nele. 

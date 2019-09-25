@@ -44,3 +44,5 @@ UPDATE tb_funcionarios SET admissao = CURRENT_DATE() where id = 1;
 #Atualizar o campo de admissão com a data de hoje mais 60 dias
 UPDATE tb_funcionarios SET admissao = DATE_ADD(CURRENT_DATE(), INTERVAL 60 DAY) where id = 2;
 
+INSERT INTO tb_pessoas VALUES (NULL, 'José', 'M');
+

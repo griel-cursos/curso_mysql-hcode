@@ -50,3 +50,7 @@ SELECT nome, salario AS atual, convert(salario*1.1, DEC(10,2)) AS 'salario com a
 #Limitar os dados obtidos em uma consulta. O Order By deve vir sempre no final da instrução:
 #SELECT * FROM tabela LIMIT começo, quantidade
 SELECT * FROM tb_funcionarios LIMIT 0, 3;
+
+#Limpar a tabela e remover todos os rastros
+#TRUNCATE TABLE nome_tabela;
+TRUNCATE TABLE tb_pessoas;
