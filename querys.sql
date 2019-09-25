@@ -46,3 +46,7 @@ INSERT INTO tb_funcionarios SELECT id, nome, 950, CURRENT_DATE(), sexo, NULL FRO
 #Converter dados antes de serem exibidos:
 #SELECT campo, campo_converter AS nome_atual, convert(campo, conversao) AS 'nome do novo campo' FROM tabela
 SELECT nome, salario AS atual, convert(salario*1.1, DEC(10,2)) AS 'salario com aumento' FROM tb_funcionarios;
+
+#Limitar os dados obtidos em uma consulta. O Order By deve vir sempre no final da instrução:
+#SELECT * FROM tabela LIMIT começo, quantidade
+SELECT * FROM tb_funcionarios LIMIT 0, 3;
