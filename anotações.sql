@@ -9,6 +9,16 @@
 
 #Tabelas também podem ser chamadas de entidades. 
 
+#Comando: Possui uma ou mais cláusulas
+#Clausula: Parâmetros para complementar um comando
+#Operador: Exemplo, AND OR. 
+#	= : Comparador
+#	<> ou !=: Que sejam diferentes
+
+#"O Operador Respeita o Tipo de Dados"
+#SEMPRE TENHA MEDO E RESPEITO PELO 'AND'!!
+#SEMPRE TENHA PAVOR E RESPEITO PELO 'OR'!!
+
 /* 
 Comandos DDL (Data Defination Language) - Comandos de Estrutura
 - DROP = Apaga o banco de dados e tudo que houver nele. 

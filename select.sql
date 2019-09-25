@@ -1,3 +1,5 @@
+#Somente selecionar todos os dados da tabela
+SELECT * FROM tb_funcionarios;
 #Contar quantas linhas há na consulta
 SELECT COUNT(*) FROM tb_funcionarios;
 #Contas quantas linhas possuem dados
