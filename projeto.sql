@@ -96,4 +96,6 @@ INSERT INTO tb_funcionarios VALUES (
 
 INSERT INTO tb_pessoas VALUES (NULL, 'João', NULL);
 
+INSERT INTO tb_pessoas VALUES (NULL, 'José', NULL);
+
 SELECT * FROM tb_funcionarios;
